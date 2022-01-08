@@ -1,0 +1,26 @@
+.infor {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infor > div {
+    width: calc(100% / 3);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.infor > div > p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.infor > div > p:last-child {
+    font-size: 16px;
+}
+
+.infor > div:nth-child(2) {
+    margin: 0 20px;
+}

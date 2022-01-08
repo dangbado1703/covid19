@@ -1,0 +1,15 @@
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    outline:none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 32px;
+    width: 100px;
+    border-radius: 6px;
+    margin: 0 4px;
+    cursor: pointer;
+}
